@@ -50,3 +50,7 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+
+#botao-sync{
+    float: right;
+}
