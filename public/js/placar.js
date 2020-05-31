@@ -84,7 +84,10 @@ function atualizaPlacar(){
     $.get("http://localhost:3000/placar", function(data){
         $(data).each(function(){
             let linha = novaLinha(this.usuario, this.pontos);
+<<<<<<< HEAD
             linha.find(".botao-remover").click(removeLinha);
+=======
+>>>>>>> 3bd6463237b8737310dfb62eddee2d6ac980c43c
             $("tbody").append(linha);
         });
     })
