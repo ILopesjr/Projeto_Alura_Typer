@@ -10,5 +10,5 @@ Um pequeno jogo de digitação
 2.	Descompactar o projeto
 3.  Usar o comando no terminal -> npm install na pasta do servidor
 4.  Usar o comando no terminal -> npm start na pasta do servidor
-5.  acessar http://localhost:3000/principal.html
+5.  acessar http://localhost:3000/
 6.  Boa diversão. :)
