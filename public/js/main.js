@@ -8,6 +8,10 @@ $(function(){
     inicializaMarcadores();
     $("#botao-reiniciar").click(reniciarJogo);
     atualizaPlacar();
+    $("#usuarios").selectize({
+        create: true,
+        sortField: 'text'
+    });
 });
 
 function atualizaTempoInicial(tempo){
