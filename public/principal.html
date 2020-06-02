@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Alura Typer</title>
     <link rel="stylesheet" href="css/libs/materialize.min.css">
     <link rel="stylesheet" href="css/libs/google-fonts.css">
     <link rel="stylesheet" href="css/libs/selectize.default.css">
+    <link rel="stylesheet" href="css/libs/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
     <div class="container">
         <h1 class="center">Alura Typer</h1>
 
-        <p class="frase center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-            et dolore magna aliqua."
+        <p class="frase center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua."
         </p>
 
         <div class="center">
@@ -47,7 +50,7 @@
             <a id="botao-frase-id" class="btn-floating btn-large waves-effect waves-light cyan">
                 <i class="material-icons">repeat_one</i>
             </a>
-            <input type="number"  min="1" class="frase-id" title="Escolha a frase" value="1">
+            <input type="number" min="1" class="frase-id" title="Escolha a frase" value="1">
 
             <div class="select-usuarios">
                 <select id="usuarios">
@@ -57,7 +60,8 @@
                 </select>
             </div>
 
-            <a id="botao-sync" class="btn-floating btn-large waves-effect waves-light yellow">
+            <a id="botao-sync" class="tooltip btn-floating btn-large waves-effect waves-light yellow"
+                title="Sincronizado com sucesso!">
                 <i class="material-icons">swap_vert</i>
             </a>
         </div>
@@ -69,7 +73,7 @@
 
         <section class="placar">
             <h3 class="center">Placar</h3>
-            <table class="centered bordered"> 
+            <table class="centered bordered">
                 <thead>
                     <tr>
                         <th>Nome</th>
@@ -82,12 +86,13 @@
             </table>
         </section>
     </div>
-    
-    <script type="text/javascript"  src="js/jquery.js"></script>
-    <script type="text/javascript"  src="js/main.js"></script>
-    <script type="text/javascript"  src="js/placar.js"></script>
-    <script type="text/javascript"  src="js/frase.js"></script>
-    <script type="text/javascript"  src="js/selectize.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/placar.js"></script>
+    <script type="text/javascript" src="js/frase.js"></script>
+    <script type="text/javascript" src="js/selectize.js"></script>
+    <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 </body>
 
 </html>
